@@ -14,7 +14,7 @@ const SidebarItem = ({ item }) => {
 
 const Sidebar = () => {
   return (
-    <div className="h-screen w-[20%] bg-theme-black text-white hidden sm:flex flex-col justify-start items-start pt-14 pl-10 gap-y-7 sticky top-0">
+    <div className="h-screen w-[20vw] bg-theme-black text-white hidden sm:flex flex-col justify-start items-start pt-14 pl-10 gap-y-7 sticky top-0">
       {menu.map((item) => {
         return <SidebarItem item={item} key={item.title} />;
       })}

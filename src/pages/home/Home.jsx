@@ -7,7 +7,7 @@ import Card from "../../components/card/Card";
 const Home = () => {
   const games = useSelector(getAllGames);
   return (
-    <main className="bg-theme-black w-[80%] flex flex-col justify-start">
+    <main className="bg-theme-black w-[80vw] flex flex-col justify-start">
       {/* main page title  */}
       <section className="mt-10">
         <h1 className="text-[72px] leading-[74px] font-bold text-white">

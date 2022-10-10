@@ -10,7 +10,7 @@ const Detail = () => {
 
   return (
     <Animated>
-      <div className="bg-black text-white flex justify-center items-center w-full h-full">
+      <div className="bg-theme-black text-white flex justify-center items-center w-[80vw] h-full">
         Detail
       </div>
     </Animated>

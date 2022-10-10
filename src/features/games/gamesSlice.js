@@ -29,7 +29,6 @@ export const getAllGames = (state) => state.games;
 
 //get game info by id
 export const getGameById = (state, gameId) => {
-  console.log(state.games.results);
   return state.games?.results?.find((game) => {
     console.log(game);
     return game.id === gameId;
